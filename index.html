@@ -1,13 +1,65 @@
 <!doctype html>
 <html>
 <head>
-<title></title>
+<title>Canvas Fun Time</title>
+<style>
+  body, html {
+    height: 100%;
+  }
+
+  body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  canvas {
+    border: 1px solid;
+  }
+</style>
 </head>
 <body>
 
 <canvas id="my-canvas" width="800" height="800"></canvas>
 
 <script>
+
+  const canvas = document.getElementById('my-canvas')
+  const ctx = canvas.getContext('2d')
+
+  // 
+  ctx.beginPath()               // begins a new path
+  ctx.rect(0, 0, 20, 20) // draws a rectangular path
+  ctx.fillStyle = "#0095DD"     // sets the fill color
+  ctx.closePath()               // closes the path
+  ctx.fill()                    // fills the current path
+
+  // 1
+
+  // 2
+
+  // 3
+
+  // 4
+
+  // 5
+
+  // 6
+
+  // 7
+
+  // 8
+
+  // 9
+
+  // 10
+
+  // 11
+
+  // 12
+
+  // 13
+
+  
 
 </script>
 </body>
